@@ -19,6 +19,9 @@
     - To access the argument from inside the script, bash reserves the special variables `$1`, `$2`, `$3`, ...
     - For practice, go back to `myScript.sh` that we created earlier and change `$USER` to `$1`. Now, run it by typing `myScript.sh <YOUR_NAME>`
 
+## Downloading a file from the command line
+
+The data file to be used in your assignment is available here: [chiari.summary_statistics.csv](https://raw.githubusercontent.com/IntroToCompBioLSU-Spr20/Scripts2_Week4/master/chiari.summary_statistics.csv)
 
 ```
 Assignment 3
