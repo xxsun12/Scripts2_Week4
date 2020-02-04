@@ -23,6 +23,10 @@
 
 The data file to be used in your assignment is available here: [chiari.summary_statistics.csv](https://raw.githubusercontent.com/IntroToCompBioLSU-Spr20/Scripts2_Week4/master/chiari.summary_statistics.csv)
 
+While we could copy and paste the contents of this file into a new file using the graphical interface, this approach becomes  tedious and difficult with lots of files or large files. Instead, we'd like to be able to download the file contents directly from the command line. To do this, we can use the `curl` command. To start, try executing this command
+
+`curl https://raw.githubusercontent.com/IntroToCompBioLSU-Spr20/Scripts2_Week4/master/chiari.summary_statistics.csv`
+
 ```
 Assignment 3
 
