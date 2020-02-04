@@ -46,7 +46,18 @@ Note that this syntax will stay the same for any find and replace operation that
 ```
 Assignment 3
 
+(1) Download and save the file above (`chiari.summary_statistics.csv`)
+(2) Count the lines in the file and store this value in a variable
+(3) Using this value and tail, extract all the lines in the file except the header (top) line, then pipe to -->
+(4) grep to extract lines ending with an HoT alignment score of 1, then pipe to -->
+(5) grep to extract lines with 14 taxa (think about what pattern would allow this) -->
+(6) then extract and save only the gene names from these lines
 
+After you've worked out the commands needed to do this, put them in a script and make sure you can execute it.
+
+Now, generalize your script to accept any HoT score and number of taxa as command-line arguments.
+
+Turn in this generalized script in the homework folder and submit via a pull request.
 
 Will be due Friday, Feb. 7th at noon.
 ```
