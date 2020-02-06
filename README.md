@@ -62,7 +62,7 @@ Turn in this generalized script in the homework folder and submit via a pull req
 Will be due Friday, Feb. 7th at noon.
 ```
 
-# Math in Bash
+## Math in Bash
 
 In general, bash isn't very good for mathematical operations, but it can be done in several ways. Probably the easiest is to wrap a mathematical expression in _double_ parentheses and precede it with a `$`, since you pretty much always want the _value_ of the mathematical result.
 
@@ -78,12 +78,12 @@ NOTE: bash can only handle _integers_ and not floating-point numbers (i.e., deci
 
 Try this. What happens?
 
-    - `myVar=3`
-    - `echo $myVar`
-    - `((myVar++))`
-    - `echo $myVar`
-    - `((myVar++))`
-    - `echo $myVar`
+myVar=3
+echo $myVar
+((myVar++))
+echo $myVar
+((myVar++))
+echo $myVar
 
 What does the `++` operator do?
 
@@ -97,7 +97,7 @@ Practice Exercise - Math and Scripting
 
 ```
 
-# If...Else
+## If...Else
 
 One of the other very important programming concepts is known as "flow control". Basically, this just means doing different things depending on current conditions. There are several ways to accomplish flow control, but probably the most common is the `if...else` statement, which looks like this:
 
