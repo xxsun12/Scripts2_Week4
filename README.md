@@ -141,6 +141,16 @@ else
 fi
 ```
 
+```
+Practice Exercise - If...Else
+
+(1) Start with the script you wrote above to practice math
+(2) Now add two if...else statements to check that:
+  - The first number is between 3 and 7
+  - The second number is between 10 and 14
+(3) If either of these conditions are not met, have your script print an error message to the screen.
+```
+
 ## For Loops
 
 One of the most common reasons to write a script is to automate something that is, at a minimum, very tedious to do manually and, at worst, completely impossible otherwise. A versatile way to incorporate repitition into a script is to use a `for` loop. `for` loops in bash have the following structure:
