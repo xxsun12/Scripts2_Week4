@@ -1,0 +1,8 @@
+#! /bin/bash
+
+#tail -n 248 <extract all the lines in the file except the header (top) line> pipe to
+#grep ,"$1"$ <grep to extract lines ending with specific values of HoT alignment score through 1st command-line argument> pipe to
+#grep ,"$2", <grep to extract lines with specific values of taxa through 2nd command-line argument> pipe to
+#awk -F ',' '{print $2}' <extract and save only the gene names from these lines>
+
+tail -n 248 /home/xsun/myBiologyClasses/hw/chiari.summary_statistics.csv | grep ,"$1"$ | grep ,"$2", | awk -F ',' '{print $2}'
